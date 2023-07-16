@@ -619,7 +619,7 @@ session_start();
 if(isset($_POST["key"])){
 	$key = $_POST["key"];
 	$check = json_decode(file_get_contents("https://subvipp.site/api/check_key.php?key=".$key),true);
-	if($key == "Anhdz" or $key == "2008" or $check["status"] == "success"){/*
+	if($key == "khaidev" or $key == "quangkhai" or $check["status"] == "success"){/*
 	}if($key == "" or $check["status"] == "success"){*/
 		if(isset($_POST["phone"])){
 			$sdt = $_POST["phone"];
